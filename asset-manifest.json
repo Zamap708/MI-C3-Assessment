@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MI-C3-Assessment/static/css/main.8fb751a5.css",
-    "main.js": "/MI-C3-Assessment/static/js/main.0c50d585.js",
+    "main.js": "/MI-C3-Assessment/static/js/main.0e0867de.js",
     "static/media/car.png": "/MI-C3-Assessment/static/media/car.c9a57155a5d64e7e4681.png",
     "index.html": "/MI-C3-Assessment/index.html",
     "main.8fb751a5.css.map": "/MI-C3-Assessment/static/css/main.8fb751a5.css.map",
-    "main.0c50d585.js.map": "/MI-C3-Assessment/static/js/main.0c50d585.js.map"
+    "main.0e0867de.js.map": "/MI-C3-Assessment/static/js/main.0e0867de.js.map"
   },
   "entrypoints": [
     "static/css/main.8fb751a5.css",
-    "static/js/main.0c50d585.js"
+    "static/js/main.0e0867de.js"
   ]
 }
