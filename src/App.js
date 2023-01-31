@@ -12,7 +12,7 @@ function App() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
-  const [name, setName] = useState('xdhdhdgsfs');
+  const [name, setName] = useState('');
 
   //this useEffect allows us too filter the results of the query before fetching the data using SWAPI's search parameter
   //pagination is done by incrementing the page if result.data.next, a URL showing the next page, exists. fetchData will be called again because page is a dependency
