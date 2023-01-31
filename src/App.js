@@ -26,6 +26,7 @@ function App() {
         setPage(page + 1);
       } else {
         setLoading(false);
+        setPage("")
       }
     };
 
