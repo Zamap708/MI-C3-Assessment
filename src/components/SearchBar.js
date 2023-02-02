@@ -1,17 +1,22 @@
 import React from 'react';
 import { useRef } from 'react';
+import { useDispatch} from "react-redux";
+import { fetchUsers } from '../features/users'
+
 
 
 
 export default function SearchBar(props) {
 
+    const dispatch = useDispatch()
+
     const inputRef = useRef()
 
 
     const handleSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         const value = inputRef.current.value;
-        props.handleChange(value);
+        dispatch(fetchUsers(value))
     }
 
     return (
@@ -23,7 +28,6 @@ export default function SearchBar(props) {
                     ref={inputRef}
                     className="search_input"
                     placeholder="Search Users By Name..."
-                    
                 />
                 <button className="search_button">Search</button>
             </form>
